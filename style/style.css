@@ -1,0 +1,296 @@
+@charset "Utf-8";
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* main container code */
+
+.main-container{
+    width: 80%;
+    height: 500px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+/*  End main container code */
+
+
+/* start branding part code */
+.brand-container{
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #ccc;
+   
+    
+}
+.brand-name{
+    font-family: century gothic;
+    color:black;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 25px;
+   
+    
+    
+}
+
+.tagline{
+    font-family: century gothic;
+    color:black;
+    position: relative;
+    top: 240px;
+    left: 70px;
+
+   
+}
+
+.view-work{
+    width: 150px;
+    height: 60px;
+    margin-top: 250px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    border-radius: 40px;
+    background-color: orange;
+    transition: 0.5s;
+    border: none;
+}
+
+/* End branding part code */
+
+.side-img{
+    position: absolute;
+    right: -112px;
+  
+}
+
+/* our work code here */
+.ourwork{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.678);
+    position: absolute;
+    top: 500px;
+
+}
+
+.our-work{
+    font-family: century gothic;
+    text-align: center;
+}
+/* End our work code */
+
+/* 3rd img code */
+
+.img-3{
+    position: absolute;
+    margin-top: 580px;
+    width: 100%;
+    height: 600px;
+   
+}
+
+.img3{
+    width: 100%;
+    height: 600px;
+
+}
+/*  End 3rd img code */
+
+
+/* set photo one part code */
+.setphoto{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    margin-top: 1180px;
+    left: -1px;
+    background-color: rgba(234, 141, 41, 0.133);
+    
+}
+
+.set-photo1{
+    font-family: century gothic;
+    text-align: center;
+
+}
+.statement{
+    font-family: century gothic;
+    text-align: center;
+    margin-top:-10px;
+
+}
+/* End set photo one part code */
+
+/* img cont1 code */
+.img-cont-1{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 1270px;
+   
+}
+
+.imgcont1{
+    width: 100%;
+    height: 600px;
+}
+/* End img cont1 code */
+
+/* start photo -2 code */
+.photo2{
+    width: 100%;
+    height:80px;
+    position: absolute;
+    margin-top: 1870px;
+    background-color: rgba(234, 141, 41, 0.133);
+}
+.photo-2{
+    font-family: century gothic;
+    color: black;
+    text-align: center;
+
+}
+.phto2{
+    font-family: century gothic;
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+}
+.phto-22{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 1951px;
+  
+}
+.phto-aa{
+    width: 100%;
+    height: 600px;
+}
+/* end photo-2 code .. */
+
+/* start photo-3 code */
+.photo-3{
+    width: 100%;
+    height:80px;
+    position: absolute;
+    margin-top: 2551px;
+    background-color: rgba(40, 168, 26, 0.133);
+}
+
+.phto-3{
+    font-family: century gothic;
+    color: black;
+    text-align: center;
+}
+.pho-33{
+    font-family: century gothic;
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+}
+.phto-33{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 2632px;
+}
+.phto-cc{
+    width: 100%;
+    height: 600px;
+}
+
+/*  End start photo-3 code */
+
+/*  start photo-4 code */
+.photo-4{
+    width: 100%;
+    height:80px;
+    position: absolute;
+    margin-top: 3234px;
+    background-color: rgba(151, 28, 208, 0.896);
+}
+.phto-4{
+    font-family: century gothic;
+    color: black;
+    text-align: center;
+}
+
+.pho-44{
+    font-family: century gothic;
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.phto-441{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 3315px;
+}
+
+.phto-dd{
+    width: 100%;
+    height: 600px;
+}
+/*  End start photo-4 code */
+
+/* start get in Touch code */
+.get{
+    width: 100%;
+    height: 400px;
+    background: rgb(221, 155, 33);
+    border: 1px soid black;
+    position: absolute;
+    top: 3910px;
+}
+.getintouch{
+    font-size: 45px;
+    font-family: calibri;
+    text-align: center;
+    margin-top: 150px;
+}
+.consult{
+    font-size: 20px;
+    font-family: calibri;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.email{
+    font-size: 20px;
+    font-family: calibri;
+    text-align: center;
+}
+.mobile-no{
+    font-size: 20px;
+    font-family: calibri;
+    text-align: center;
+}
+/* End get in Touch code */
+   
+
+
